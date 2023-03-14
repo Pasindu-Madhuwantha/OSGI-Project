@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ManagerServiceConsumer
+Bundle-SymbolicName: ManagerServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: managerserviceconsumer.ManagerServiceConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: ManagerServicePublisher
+Import-Package: managerservicepublisher,
+ org.osgi.framework;version="1.3.0"
+ 
